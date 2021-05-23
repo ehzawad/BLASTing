@@ -161,4 +161,9 @@ Now search that discovered sequence against the genome of Prochlorococcus marinu
 blastn -query discovered_DNA_sequence.fna -db procholo_nucloetide.fna
 ```
 
-
+### SARC-CoV-2
+```bash
+makeblastdb -in protein.faa -dbtype prot -parse_seqids
+makeblastdb -in genomic.fna -dbtype nucl -parse_seqids
+blastn -query genomic.fna -db nt.00
+```
