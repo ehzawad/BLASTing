@@ -167,3 +167,7 @@ makeblastdb -in protein.faa -dbtype prot -parse_seqids
 makeblastdb -in genomic.fna -dbtype nucl -parse_seqids
 blastn -query genomic.fna -db nt.00
 ```
+Serach a random protein sequence ( a very little sequence) again the SARC-Cov-2's protein sequence
+```bash
+blastp -query little_seq.faa -db protein.faa
+```
