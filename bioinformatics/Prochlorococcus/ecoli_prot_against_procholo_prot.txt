@@ -1,0 +1,229 @@
+BLASTP 2.11.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: procholo_protein.faa
+           1,882 sequences; 516,756 total letters
+
+
+
+Query= sp|B7LA79|RL7_ECO55 50S ribosomal protein L7/L12 OS=Escherichia coli
+(strain 55989 / EAEC) OX=585055 GN=rplL PE=3 SV=1
+
+Length=121
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+AAP99273.1 Ribosomal protein L7/L12 [Prochlorococcus marinus subs...  87.8    6e-25
+AAQ00172.1 DNA helicase related to phage enzyme [Prochlorococcus ...  25.0    0.70 
+AAQ00929.1 Threonine synthase [Prochlorococcus marinus subsp. mar...  24.6    0.77 
+AAQ00774.1 Phosphoenolpyruvate carboxylase [Prochlorococcus marin...  24.6    0.84 
+AAQ00915.1 Molecular chaperone, DnaK [Prochlorococcus marinus sub...  24.6    0.87 
+AAQ00521.1 Permease of the drug/metabolite transporter, DMT super...  23.9    1.4  
+AAP99472.1 Imidazoleglycerol-phosphate synthase [Prochlorococcus ...  22.7    3.2  
+AAQ00341.1 Chorismate mutase [Prochlorococcus marinus subsp. mari...  22.3    3.5  
+AAQ00812.1 Acyl carrier protein [Prochlorococcus marinus subsp. m...  21.9    4.2  
+AAQ00098.1 Dihydroxynaphthoic acid synthase [Prochlorococcus mari...  22.3    5.7  
+AAP99281.1 Enolase [Prochlorococcus marinus subsp. marinus str. C...  21.9    6.9  
+AAP99559.1 Dihydroorotase [Prochlorococcus marinus subsp. marinus...  21.9    7.1  
+AAP99940.1 Uncharacterized membrane protein [Prochlorococcus mari...  21.9    7.1  
+
+
+>AAP99273.1 Ribosomal protein L7/L12 [Prochlorococcus marinus subsp. marinus 
+str. CCMP1375]
+Length=130
+
+ Score = 87.8 bits (216),  Expect = 6e-25, Method: Compositional matrix adjust.
+ Identities = 64/130 (49%), Positives = 91/130 (70%), Gaps = 9/130 (7%)
+
+Query  1    MSITKDQIIEAVAAMSVMDVVELISAMEEKFGVSAAAAVAV--------AAGPVEAAEEK  52
+            MS   D+I++++ ++S+++  EL+  +EE FGVSAAA+  V          G   AAEEK
+Sbjct  1    MSKKTDEILDSLKSLSLLEASELVKQIEEAFGVSAAASAGVVMAAPGAATGGGEAAAEEK  60
+
+Query  53   TEFDVILKAAGAN-KVAVIKAVRGATGLGLKEAKDLVESAPAALKEGVSKDDAEALKKAL  111
+            TEFDV+L++  A+ K+ V+K VR ATGLGL +AK +VE+AP  +KEG SK+DAEALKKA+
+Sbjct  61   TEFDVVLESFDASAKIKVLKEVRNATGLGLGDAKAMVEAAPKTIKEGASKEDAEALKKAI  120
+
+Query  112  EEAGAEVEVK  121
+            E  G +V +K
+Sbjct  121  EAVGGKVTLK  130
+
+
+>AAQ00172.1 DNA helicase related to phage enzyme [Prochlorococcus marinus 
+subsp. marinus str. CCMP1375]
+Length=479
+
+ Score = 25.0 bits (53),  Expect = 0.70, Method: Composition-based stats.
+ Identities = 13/37 (35%), Positives = 23/37 (62%), Gaps = 1/37 (3%)
+
+Query  73   VRGATGL-GLKEAKDLVESAPAALKEGVSKDDAEALK  108
+            VR  TGL G  + K  +E A ++L+E   K+D ++++
+Sbjct  213  VRTKTGLIGSLDQKSWLEKAKSSLREAAEKNDPDSIR  249
+
+
+>AAQ00929.1 Threonine synthase [Prochlorococcus marinus subsp. marinus str. 
+CCMP1375]
+Length=370
+
+ Score = 24.6 bits (52),  Expect = 0.77, Method: Compositional matrix adjust.
+ Identities = 11/26 (42%), Positives = 16/26 (62%), Gaps = 0/26 (0%)
+
+Query  77   TGLGLKEAKDLVESAPAALKEGVSKD  102
+            TG GLK+    +++  A  KEG+S D
+Sbjct  335  TGNGLKDPDCAIKNNDAVFKEGISPD  360
+
+
+>AAQ00774.1 Phosphoenolpyruvate carboxylase [Prochlorococcus marinus subsp. 
+marinus str. CCMP1375]
+Length=1001
+
+ Score = 24.6 bits (52),  Expect = 0.84, Method: Composition-based stats.
+ Identities = 14/45 (31%), Positives = 25/45 (56%), Gaps = 0/45 (0%)
+
+Query  17   VMDVVELISAMEEKFGVSAAAAVAVAAGPVEAAEEKTEFDVILKA  61
+            + ++VELI  M+    +SAA A ++    V   E++ E D  L++
+Sbjct  83   INEIVELIKEMDLAEAISAARAFSLYFQLVNILEQRIEEDSYLES  127
+
+
+>AAQ00915.1 Molecular chaperone, DnaK [Prochlorococcus marinus subsp. marinus 
+str. CCMP1375]
+Length=633
+
+ Score = 24.6 bits (52),  Expect = 0.87, Method: Compositional matrix adjust.
+ Identities = 15/36 (42%), Positives = 20/36 (56%), Gaps = 0/36 (0%)
+
+Query  83   EAKDLVESAPAALKEGVSKDDAEALKKALEEAGAEV  118
+            EAK  VE+    LKE   KDD E +K  +E+   E+
+Sbjct  554  EAKAKVEAKRIQLKEATEKDDYETMKTLVEDLQKEL  589
+
+
+>AAQ00521.1 Permease of the drug/metabolite transporter, DMT superfamily 
+[Prochlorococcus marinus subsp. marinus str. CCMP1375]
+Length=224
+
+ Score = 23.9 bits (50),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 10/32 (31%), Positives = 17/32 (53%), Gaps = 0/32 (0%)
+
+Query  64   ANKVAVIKAVRGATGLGLKEAKDLVESAPAAL  95
+            ANK+ +  A    T LG+   +++ +S P  L
+Sbjct  150  ANKIRLFYATFLGTNLGILLQQNVFQSLPIGL  181
+
+
+>AAP99472.1 Imidazoleglycerol-phosphate synthase [Prochlorococcus marinus 
+subsp. marinus str. CCMP1375]
+Length=257
+
+ Score = 22.7 bits (47),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 11/28 (39%), Positives = 17/28 (61%), Gaps = 0/28 (0%)
+
+Query  71  KAVRGATGLGLKEAKDLVESAPAALKEG  98
+           + V+G   +GL++A D VE A    +EG
+Sbjct  16  RVVKGVNFVGLRDAGDPVELACRYSREG  43
+
+
+>AAQ00341.1 Chorismate mutase [Prochlorococcus marinus subsp. marinus str. 
+CCMP1375]
+Length=120
+
+ Score = 22.3 bits (46),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 11/22 (50%), Positives = 14/22 (64%), Gaps = 1/22 (5%)
+
+Query  70  IKAVRGATGLGLKEAKDLVESA  91
+           I+A+RGAT   L    D +ESA
+Sbjct  3   IRAIRGATTC-LSNTSDAIESA  23
+
+
+>AAQ00812.1 Acyl carrier protein [Prochlorococcus marinus subsp. marinus 
+str. CCMP1375]
+Length=80
+
+ Score = 21.9 bits (45),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 8/16 (50%), Positives = 12/16 (75%), Gaps = 0/16 (0%)
+
+Query  18  MDVVELISAMEEKFGV  33
+           +D VEL+ A+EE F +
+Sbjct  40  LDTVELVMALEEAFDI  55
+
+
+>AAQ00098.1 Dihydroxynaphthoic acid synthase [Prochlorococcus marinus subsp. 
+marinus str. CCMP1375]
+Length=292
+
+ Score = 22.3 bits (46),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 7/17 (41%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  80   GLKEAKDLVESAPAALK  96
+            G+K AK+++E++P A++
+Sbjct  221  GVKWAKEILENSPTAIR  237
+
+
+>AAP99281.1 Enolase [Prochlorococcus marinus subsp. marinus str. CCMP1375]
+Length=432
+
+ Score = 21.9 bits (45),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 12/40 (30%), Positives = 24/40 (60%), Gaps = 1/40 (3%)
+
+Query  82   KEAKDLVESAPA-ALKEGVSKDDAEALKKALEEAGAEVEV  120
+            +E K LV   P  ++++G+S+DD    +   +E G +V++
+Sbjct  272  EELKKLVNLYPIISIEDGLSEDDWSGWELLTKELGNKVQL  311
+
+
+>AAP99559.1 Dihydroorotase [Prochlorococcus marinus subsp. marinus str. CCMP1375]
+Length=419
+
+ Score = 21.9 bits (45),  Expect = 7.1, Method: Composition-based stats.
+ Identities = 9/14 (64%), Positives = 12/14 (86%), Gaps = 0/14 (0%)
+
+Query  100  SKDDAEALKKALEE  113
+            S +D E+LKKAL+E
+Sbjct  283  SSNDRESLKKALQE  296
+
+
+>AAP99940.1 Uncharacterized membrane protein [Prochlorococcus marinus subsp. 
+marinus str. CCMP1375]
+Length=211
+
+ Score = 21.9 bits (45),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 11/34 (32%), Positives = 20/34 (59%), Gaps = 0/34 (0%)
+
+Query  85   KDLVESAPAALKEGVSKDDAEALKKALEEAGAEV  118
+            K+L+E+     +    ++  EAL+K+ E A AE+
+Sbjct  161  KELIENTRKKKRRSFYENRLEALRKSAERARAEM  194
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.123    0.300    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 21095748
+
+
+  Database: procholo_protein.faa
+    Posted date:  May 23, 2021  6:50 AM
+  Number of letters in database: 516,756
+  Number of sequences in database:  1,882
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

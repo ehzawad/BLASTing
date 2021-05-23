@@ -1,0 +1,145 @@
+BLASTN 2.11.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: procholo_nucloetide.fna
+           1 sequences; 1,751,080 total letters
+
+
+
+Query= J01859.1 Escherichia coli 16S ribosomal RNA, complete sequence
+
+Length=1541
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+AE017126.1 Prochlorococcus marinus subsp. marinus str. CCMP1375 c...  665     0.0  
+
+
+>AE017126.1 Prochlorococcus marinus subsp. marinus str. CCMP1375 complete 
+genome
+Length=1751080
+
+ Score = 665 bits (360),  Expect = 0.0
+ Identities = 834/1063 (78%), Gaps = 31/1063 (3%)
+ Strand=Plus/Plus
+
+Query  493     GAAGAAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACGG-AGGGTGCAAGCGTT  551
+               ||| ||||  ||||||| ||||||||||||||||||||||||||| || | |||||||||
+Sbjct  353746  GAATAAGCCACGGCTAATTCCGTGCCAGCAGCCGCGGTAATACGGGAGTG-GCAAGCGTT  353804
+
+Query  552     AATCGGAATTACTGGGCGTAAAGCGCACGCAGGCGGTTTGTTAAGTCAGATGTGAAATCC  611
+               |  |||||||| |||||||||||||  |||||||||  | | ||||| | ||| |||  |
+Sbjct  353805  ATCCGGAATTATTGGGCGTAAAGCGTCCGCAGGCGGCCTTTCAAGTCTGCTGT-AAAAAC  353863
+
+Query  612     CCGG-GCTCAACCTGGGAAC-T-GCATCTGATACTGGCAA-GCTTGAGTCTCGTAGAGGG  667
+                 || ||| || ||   | | | |||   || ||| | |  ||| |||| | |||| || 
+Sbjct  353864  GTGGAGCTTAA-CT-CCATCATCGCAGTGGAAACT-GAAGGGCTCGAGTGTGGTAGGGGC  353920
+
+Query  668     -GGGTAGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAATACCGGTGGCG  726
+                | |  ||||||| ||||||||||||||||||||||| ||| ||| ||| ||| ||||||
+Sbjct  353921  AGAGG-GAATTCCCGGTGTAGCGGTGAAATGCGTAGATATCGGGAAGAACACCAGTGGCG  353979
+
+Query  727     AAGGCGGCCCCCTGGACGAAGACTGACGCTCAGGTGCGAAAGCGTGGGGAGCAAACAGGA  786
+               ||||||  |  |||| | |  ||||||||||| |  |||||||  ||||||| ||  |||
+Sbjct  353980  AAGGCGCTCTGCTGGGCCATAACTGACGCTCATGGACGAAAGCCAGGGGAGCGAAAGGGA  354039
+
+Query  787     TTAGATACCCTGGTAGTCCACGCCGTAAACGATGTCGACTTGGAGGTTGTGCCCTTGA-G  845
+               ||||||||||  |||||||  |||||||||||||   ||| || |   | |   | ||  
+Sbjct  354040  TTAGATACCCCTGTAGTCCTGGCCGTAAACGATGAACACTAGGTGTCGGGGGAATCGACC  354099
+
+Query  846     GCGTGGCTTCCGGAGCTAACGCGTTAAGTCGACCGCCTGGGGAGTACGGCCGCAAGGTTA  905
+                | | | |  || ||||||||||||||||   ||||||||||||||||  ||||||  | 
+Sbjct  354100  CCTTCGGTGTCGTAGCTAACGCGTTAAGTGTTCCGCCTGGGGAGTACGCACGCAAGTGTG  354159
+
+Query  906     AAACTCAAATGAATTGACGGGGGCCCGCACAAGCGGTGGAGCATGTGGTTTAATTCGATG  965
+               ||||||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||
+Sbjct  354160  AAACTCAAAGGAATTGACGGGGGCCCGCACAAGCGGTGGAGTATGTGGTTTAATTCGATG  354219
+
+Query  966     CAACGCGAAGAACCTTACCTGGTCTTGACATCCACGGAAGTTTTCAGAGATGAGAATGTG  1025
+               ||||||||||||||||||| ||  |||||||||   |||  | | ||| ||  ||  |||
+Sbjct  354220  CAACGCGAAGAACCTTACCAGGATTTGACATCCTGCGAACCTCTTAGAAATTTGAGGGTG  354279
+
+Query  1026    CCTTCGGGAAC-C-GTGAGACAGGTGCTGCATGGCTGTCGTCAGCTCGTGTTGTGAAATG  1083
+               ||||||||||| | ||  |||||||| |||||||||||||||||||||||| |||| |||
+Sbjct  354280  CCTTCGGGAACGCAGT--GACAGGTGGTGCATGGCTGTCGTCAGCTCGTGTCGTGAGATG  354337
+
+Query  1084    TTGGGTTAAGTCCCGCAACGAGCGCAACCCTTATCCTTTGTTGCCAGCGGTCCGGCCGGG  1143
+               ||||||||||||||||||||||||||||||   |  || |||||||||  |  |   |||
+Sbjct  354338  TTGGGTTAAGTCCCGCAACGAGCGCAACCCACGTTTTTAGTTGCCAGCATTTAGTT-GGG  354396
+
+Query  1144    AACTCAAAGGAGACTGCCAGTGATAAACTGGAGGAAGGTGGGGATGACGTCAAGTCATCA  1203
+                |||| |   |||| ||| ||||||||| ||||||||||| |||||||||||||||||||
+Sbjct  354397  CACTCTAGAAAGACCGCCGGTGATAAACCGGAGGAAGGTGTGGATGACGTCAAGTCATCA  354456
+
+Query  1204    TGGCCCTTACGACCAGGGCTACACACGTGCTACAATGGCGCATACAAAGAGAAGCGACCT  1263
+               || |||||||  || ||||||||||||| ||||||||   |  |||||| | ||| | ||
+Sbjct  354457  TGCCCCTTACATCCTGGGCTACACACGTACTACAATGCTACGGACAAAGGGCAGCAAACT  354516
+
+Query  1264    CGCGAGAGCAAGCGGACCTCATAAA--GTGCGTCGTAGTCCGGATTGGAGTCTGCAACTC  1321
+               |||||||||||||  | | ||||||  |||  ||  ||| | ||| | || |||||||||
+Sbjct  354517  CGCGAGAGCAAGCAAATCCCATAAACCGTGGCTC--AGTTCAGATCGTAGGCTGCAACTC  354574
+
+Query  1322    GACTCCATGAAGTCGGAATCGCTAGTAATCGTGGATCAGAATGCCACGGTGAATACGTTC  1381
+               | || | |||||  |||||||||||||||||  | |||| || |  ||||||||||||||
+Sbjct  354575  GCCTACGTGAAGCAGGAATCGCTAGTAATCGCAGGTCAGCATACTGCGGTGAATACGTTC  354634
+
+Query  1382    CCGGGCCTTGTACACACCGCCCGTCACACCATGGGAGTGGGTTGCAAAAGAAGTAGGTAG  1441
+               |||||||||||||||||||||||||||||||||| ||| ||   |    ||||| | || 
+Sbjct  354635  CCGGGCCTTGTACACACCGCCCGTCACACCATGGAAGTTGGCCACGCCCGAAGTCGTTA-  354693
+
+Query  1442    CTT-AACCTTCG-GGAGG-G--CGCTTACCACTTTGTGATTCATGACTGGGGTGAAGTCG  1496
+               ||  |||| | | ||||| |  |||  |  |  | | | |  ||||||||||||||||||
+Sbjct  354694  CTCCAACCCTTGTGGAGGAGGACGCCGA--AGGTGGGGCTG-ATGACTGGGGTGAAGTCG  354750
+
+Query  1497    TAACAAGGTAACCGTAGGGGAACCTGCGGTTGGATCACCTCCT  1539
+               |||||||||| |||||  ||||  ||||| |||||||||||||
+Sbjct  354751  TAACAAGGTAGCCGTACCGGAAGGTGCGGCTGGATCACCTCCT  354793
+
+
+ Score = 204 bits (110),  Expect = 9e-53
+ Identities = 164/191 (86%), Gaps = 0/191 (0%)
+ Strand=Plus/Plus
+
+Query  241     GATTAGCTAGTAGGTGGGGTAACGGCTCACCTAGGCGACGATCCCTAGCTGGTCTGAGAG  300
+               |||||||| || |||| ||||| |||||||| ||||  |||||  |||||||||||||||
+Sbjct  353517  GATTAGCTTGTTGGTGAGGTAATGGCTCACCAAGGCTTCGATCAGTAGCTGGTCTGAGAG  353576
+
+Query  301     GATGACCAGCCACACTGGAACTGAGACACGGTCCAGACTCCTACGGGAGGCAGCAGTGGG  360
+               ||||| |||||||||||| |||||||||||| ||||||||||||||||||||||||||||
+Sbjct  353577  GATGATCAGCCACACTGGGACTGAGACACGGCCCAGACTCCTACGGGAGGCAGCAGTGGG  353636
+
+Query  361     GAATATTGCACAATGGGCGCAAGCCTGATGCAGCCATGCCGCGTGTATGAAGAAGGCCTT  420
+               |||| || | ||||||||| |||||||| | ||| | ||||||||   || |||||||| 
+Sbjct  353637  GAATTTTCCGCAATGGGCGAAAGCCTGACGGAGCAACGCCGCGTGAGGGATGAAGGCCTC  353696
+
+Query  421     CGGGTTGTAAA  431
+                ||| ||||||
+Sbjct  353697  TGGGCTGTAAA  353707
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2659857102
+
+
+  Database: procholo_nucloetide.fna
+    Posted date:  May 23, 2021  6:50 AM
+  Number of letters in database: 1,751,080
+  Number of sequences in database:  1
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
